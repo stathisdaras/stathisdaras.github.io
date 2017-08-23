@@ -1,7 +1,7 @@
 
 title: Stathis Daras
 url: 'http://stathisdaras'
-baseurl: '/github.io'
+#baseurl: '/github.io'
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
