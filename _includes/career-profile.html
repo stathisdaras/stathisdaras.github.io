@@ -1,8 +1,10 @@
-<section class="section summary-section">
-<h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-<div class="summary">
-    <p>Software Engineer with extensive experience in Java technologies. During my time in different companies,
-        working either alone or within a team, I have acquired valuable experience in a number of fields and I am
-        always striving to expand my current scope of expertise and knowledge.</p>
-</div><!--//summary-->
-</section><!--//section-->
+<section class="mb-10 text-center">
+  <img src="/assets/images/profile.png" alt="Profile" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-600 shadow-lg">
+  <h1 class="text-3xl font-bold">{{ site.data.ed.name }}</h1>
+  <h2 class="text-xl text-blue-400 font-semibold mb-2">{{ site.data.ed.title }}</h2>
+  <p class="mb-4">{{ site.data.ed.briefProfile }}</p>
+  <div class="flex flex-col sm:flex-row justify-center gap-4 text-sm text-gray-400">
+    <a href="mailto:{{ site.data.ed.email }}" class="hover:text-blue-400">{{ site.data.ed.email }}</a>
+    <a href="tel:{{ site.data.ed.phone | remove: ' ' }}" class="hover:text-blue-400">{{ site.data.ed.phone }}</a>
+  </div>
+</section>

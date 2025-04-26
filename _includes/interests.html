@@ -1,7 +1,8 @@
-<div class="interests-container container-block">
-<h2 class="container-block-title">Interests</h2>
-<ul class="list-unstyled interests-list">
-<li>Cinema</li>
-<li>Photography</li>
-</ul>
-</div>
+<section class="mb-10">
+  <h2 class="text-2xl font-bold mb-4">Interests</h2>
+  <ul class="list-disc list-inside text-gray-300">
+    {% for interest in site.data.ed.interests %}
+      <li>{{ interest }}</li>
+    {% endfor %}
+  </ul>
+</section>

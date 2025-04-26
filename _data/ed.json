@@ -1,0 +1,209 @@
+{
+  "name": "Efstathios Daras",
+  "email": "efstathiosdaras@gmail.com",
+  "phone": "+41 78 962 04 44",
+  "title": "Senior Full Stack Engineer",
+  "profileImage": "",
+  "briefProfile": "I am a product-driven Software Engineer with a strong sense of ownership. My aspiration is to deliver an excellent user experience to the end customer and, in the process, learn as much as I can.",
+  "skills": {
+    "JVM": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Ehcache",
+      "JBoss",
+      "Python",
+      "CakePHP",
+      "NumPy",
+      "TensorFlow"
+    ],
+    "Frontend": [
+      "Angular",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "jQuery"
+    ],
+    "Datastores/Brokers": [
+      "PostgreSQL",
+      "DynamoDB",
+      "Redis",
+      "Elasticsearch",
+      "Kafka",
+      "RabbitMQ"
+    ],
+    "DevOps": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure DevOps"
+    ]
+  },
+  "workExperiences": [
+    {
+      "company": "UBS",
+      "position": "Senior Full Stack Engineer",
+      "startDate": "Nov 2024",
+      "endDate": "Present",
+      "description": "Leading full stack development of Azure cloud-based applications using Angular and Java 11 Spring Boot.",
+      "mainContributions": [
+        "Led the migration of legacy systems to Azure cloud infrastructure",
+        "Implemented CI/CD pipelines reducing deployment time by 40%",
+        "Mentored junior developers and established coding standards"
+      ],
+      "techStack": [
+        "Angular",
+        "Java 11",
+        "Spring Boot",
+        "PostgreSQL",
+        "Azure"
+      ]
+    },
+    {
+      "company": "iptiQ by Swiss Re",
+      "position": "Senior Software Engineer", 
+      "startDate": "Apr 2021",
+      "endDate": "Oct 2024",
+      "description": "As a member of the Commissions & Technical Accounting team at iptiQ, I am responsible for implementing features related to the customers' payment plan, dunning reminders, bookkeeping and commissioning.",
+      "mainContributions": [
+        "Design and implementation of in-house technical accounting platform aimed at significantly reducing external costs.",
+        "Design, implementation and legacy migration of the company's dunning reminders system, ensuring smooth cash flow through the timely collection of payments from customers.",
+        "Improvement of operational processes by developing management APIs and Grafana reports, improving visibility and shortening operational response time.",
+        "Drafting of run-books and design documents for the team's core systems and processes."
+      ],
+      "techStack": [
+        "Kotlin",
+        "Spring Boot Microservices",
+        "PostgreSQL",
+        "DynamoDB",
+        "Redis",
+        "Kafka",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "company": "TX Group, Tamedia",
+      "position": "Senior Software Engineer",
+      "startDate": "Sep 2019",
+      "endDate": "Mar 2021", 
+      "description": "My responsibilities included the design and implementation of the core functionalities of the company's in-house CMS.",
+      "mainContributions": [
+        "Design and implementation of CMS platform features, test plans and operational tools to ensure the quality and reliability of the software.",
+        "Participation in the CMS legacy migration from Monolith to Microservices, aimed at reducing deployment times and resource usage.",
+        "Collaboration with stakeholders to gather requirements and ensure alignment with business goals and objectives."
+      ],
+      "techStack": [
+        "Java 11",
+        "Spring Boot Microservices", 
+        "MariaDB",
+        "Elasticsearch",
+        "RabbitMQ",
+        "Websockets"
+      ]
+    },
+    {
+      "company": "Upstream Systems (GR), Athens",
+      "position": "Senior Software Engineer", 
+      "startDate": "Sep 2015",
+      "endDate": "Aug 2019",
+      "description": "As a member in various teams throughout my career in Upstream, a Digital Marketing and Mobile Monetization player based in Athens, my responsibilities spanned from legacy migrations to designing and implementing new stand-alone applications.",
+      "mainContributions": [
+        "Improvement of scalability and availability of the company's customer support module by migrating from PostgreSQL to Cassandra",
+        "Extraction of legacy Java 6 Monolith functionality into a separate service inside a Java 8 Microservices architecture, including seamless migration of configurations and transactional data.",
+        "From scratch implementation of the company's fraud detection platform with emphasis on scalability and high availability.",
+        "Maintenance and feature development lead of the company's legacy CMS platform."
+      ],
+      "techStack": [
+        "Java 8",
+        "Spring Boot Microservices", 
+        "PostgreSQL",
+        "Redis",
+        "Cassandra",
+        "RabbitMQ",
+        "Java 6",
+        "JBoss",
+        "JMS"
+      ]
+    },{
+      "company": "Appart S.A (GR), Athens",
+      "position": "Junior Full Stack Engineer",
+      "startDate": "May 2013",
+      "endDate": "Sep 2015",
+      "description": "As a member of the Campaign Management team, I have participated in different projects and cooperated with various stakeholders from the world of Telecom Service Providers like Vodafone GR, Vodafone AL and Hellas On Line.",
+      "mainContributions": [
+        "Design and implementation of high-availability campaign management system, handling real time data of over a million subscribers.",
+        "Mediation system for Hellas OnLine (HOL) Music Club, a music track downloading platform for the subscribers of the 2nd larger Telecom Operator in Greece."
+      ],
+      "techStack": [
+        "Java 6",
+        "CakePHP",
+        "JQuery",
+        "JBoss",
+        "Apache Wicket",
+        "MySQL",
+        "MongoDB",
+        "ActiveMQ"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Polytechnic School of University of Patras (GR), Patras",
+      "degree": "Diploma in Electrical & Computer Engineering", 
+      "startDate": "Sep 2004",
+      "endDate": "Mar 2012",
+      "thesis": "Software development for simulation of loudspeaker-enclosure systems",
+      "supervisor": "Prof. Dr. John Mourjopoulos, mourjop@upatras.gr"
+    }
+  ],
+  "certifications": [
+    {
+      "certificationName": "Improving Deep Neural Networks",
+      "institution": "DeepLearning.AI, Coursera"
+    },
+    {
+      "certificationName": "Neural Networks & Deep Learning",
+      "institution": "DeepLearning.AI, Coursera"
+    },
+    {
+      "certificationName": "Professional Scrum Master 1",
+      "institution": "Scrum.org"
+    },
+    {
+      "certificationName": "Extreme Java 8",
+      "institution": "Java Champion Dr. Heinz Kabutz"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "institute": "FCE Cambridge",
+      "proficiency": "C1"
+    },
+    {
+      "name": "German",
+      "institute": "Goethe-Institut B2",
+      "proficiency": "B2"
+    },
+    {
+      "name": "Spanish",
+      "institute": "Instituto Cervantes B2",
+      "proficiency": "B2"
+    },
+    {
+      "name": "French",
+      "institute": "DELF 1",
+      "proficiency": "A1"
+    }
+  ],
+  "interests": [
+    "Strength Training and Fitness",
+    "Non-Fiction Literature",
+    "Chess",
+    "Settlers of Catan"
+  ],
+  "references": "Available upon request"
+}
