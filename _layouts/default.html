@@ -7,13 +7,14 @@ layout: compress
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 {% include head.html %}
 
-<body class="bg-gray-900 text-gray-100 font-sans">
-    <div class="min-h-screen flex flex-col items-center justify-center px-4">
-        <main class="w-full max-w-3xl mx-auto py-12">
+<body>
+    <div class="wrapper">
+        <div class="main-wrapper">
             {{content}}
-        </main>
-        {% include footer.html %}
+        </div>
+        {% include sidebar.html %}
     </div>
+    {% include footer.html %}
     {% include scripts.html %}
 </body>
 </html> 

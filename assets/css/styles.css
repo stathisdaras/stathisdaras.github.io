@@ -10,8 +10,8 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
-  background: #f5f5f5;
+  color: #ffffff;
+  background: #121212;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -32,15 +32,13 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  color: #2ecc71;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 a:hover {
-  text-decoration: underline;
-  color: #1a454f;
+  color: #27ae60;
+  text-decoration: none;
 }
 a:focus {
   text-decoration: none;
@@ -49,23 +47,22 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #1a252f;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #1a252f;
   position: absolute;
   right: 0;
   width: 240px;
   height: 100%;
   min-height: 800px;
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
+  border-left: 1px solid #2ecc71;
 }
 .sidebar-wrapper a {
   color: #fff;
@@ -160,18 +157,18 @@ p {
   margin-bottom: 0;
 }
 .main-wrapper {
-  background: #fff;
+  background: #1a252f;
   padding: 60px;
   padding-right: 300px;
 }
 .main-wrapper .section-title {
-  text-transform: uppercase;
+  color: #2ecc71;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
-  position: relative;
-  margin-top: 0;
+  text-transform: uppercase;
   margin-bottom: 20px;
+  border-bottom: 1px solid #2ecc71;
+  padding-bottom: 5px;
 }
 .main-wrapper .section-title .fa {
   width: 30px;
@@ -328,29 +325,28 @@ section {
 /* Profile Section */
 .profile-section {
     text-align: center;
+    padding: 30px;
+    background: rgba(46, 204, 113, 0.1);
 }
 
 .profile-image {
-    width: 8rem;
-    height: 8rem;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 4px solid #3182ce;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 3px solid #2ecc71;
+    box-shadow: 0 0 20px rgba(46, 204, 113, 0.3);
 }
 
 .profile-name {
-    font-size: 1.875rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #2d3748;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 15px 0;
 }
 
 .profile-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #3182ce;
-    margin-bottom: 0.5rem;
+    color: #2ecc71;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .profile-brief {
@@ -361,8 +357,8 @@ section {
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 @media (min-width: 640px) {
@@ -373,47 +369,74 @@ section {
 }
 
 .contact-link {
-    color: #718096;
-    text-decoration: none;
-    transition: color 0.2s;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
 }
 
 .contact-link:hover {
-    color: #3182ce;
+    color: #2ecc71;
 }
 
 /* Experience Section */
 .experience-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(46, 204, 113, 0.05);
+    border-left: 3px solid #2ecc71;
 }
 
 .company-name {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #3182ce;
+    color: #2ecc71;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .position {
-    color: #718096;
-    font-weight: normal;
+    color: #ffffff;
+    opacity: 0.8;
 }
 
 .date-range {
-    font-size: 0.875rem;
-    color: #718096;
-    margin-bottom: 0.25rem;
+    color: #2ecc71;
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 .description {
-    margin-bottom: 0.5rem;
-    color: #4a5568;
+    color: #ffffff;
+    opacity: 0.9;
+    line-height: 1.6;
 }
 
 .contributions-list {
-    list-style-type: disc;
-    list-style-position: inside;
-    margin-bottom: 0.5rem;
-    color: #718096;
+    list-style: none;
+    padding-left: 0;
+}
+
+.contributions-list li,
+.skills-list li,
+.language-list li,
+.interests-list li,
+.certifications-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.contributions-list li:before,
+.skills-list li:before,
+.language-list li:before,
+.interests-list li:before,
+.certifications-list li:before {
+    content: "▹";
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
 }
 
 .tech-stack {
@@ -423,46 +446,50 @@ section {
 
 /* Education Section */
 .education-item {
-    margin-bottom: 1rem;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(46, 204, 113, 0.05);
+    border-left: 3px solid #2ecc71;
 }
 
 .institution {
-    font-weight: 600;
-    color: #3182ce;
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .degree-info {
-    color: #718096;
-    margin-bottom: 0.25rem;
+    color: #ffffff;
+    opacity: 0.9;
 }
 
 .thesis-info,
 .supervisor-info {
-    font-size: 0.875rem;
-    color: #718096;
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
-@media (min-width: 768px) {
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .skill-category {
-    margin-bottom: 1rem;
+    background: rgba(46, 204, 113, 0.05);
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .category-title {
-    font-weight: 600;
-    color: #3182ce;
-    margin-bottom: 0.5rem;
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(46, 204, 113, 0.3);
+    padding-bottom: 5px;
 }
 
 .skills-list {
@@ -496,13 +523,12 @@ section {
 /* Print styles */
 @media print {
     body {
-        color: #000;
-        background: #fff;
+        background: white;
+        color: black;
     }
     
     a {
-        text-decoration: none;
-        color: #000;
+        color: black;
     }
     
     .container {
@@ -513,5 +539,19 @@ section {
     
     section {
         page-break-inside: avoid;
+    }
+
+    .wrapper,
+    .main-wrapper,
+    .sidebar-wrapper {
+        background: white;
+        box-shadow: none;
+    }
+
+    .experience-item,
+    .education-item,
+    .skill-category {
+        background: white;
+        border: 1px solid #ddd;
     }
 }

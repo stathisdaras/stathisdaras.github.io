@@ -5,7 +5,7 @@ baseurl: ''
 
 # Theme settings
 markdown: kramdown
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-remote-theme
 
@@ -21,6 +21,14 @@ phone: +30 6974 678 344
 linkedin: stathisdaras
 github: stathisdaras
 twitter: '@StathisDaras'
+
+# Color scheme
+colors:
+  primary: "#2ecc71"
+  secondary: "#1a252f"
+  background: "#121212"
+  text: "#ffffff"
+  accent: "#2ecc71"
 
 # Google Analytics
 analytics: UA-83979019-1
