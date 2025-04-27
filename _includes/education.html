@@ -1,11 +1,11 @@
-<section class="mb-10">
-  <h2 class="text-2xl font-bold mb-4">Education</h2>
+<section class="education-section">
+  <h2 class="section-title">Education</h2>
   {% for edu in site.data.ed.education %}
-    <div>
-      <h3 class="font-semibold text-blue-400">{{ edu.institution }}</h3>
-      <div class="text-sm text-gray-400 mb-1">{{ edu.degree }} ({{ edu.startDate }} – {{ edu.endDate }})</div>
-      <div class="text-xs text-gray-500">Thesis: {{ edu.thesis }}</div>
-      <div class="text-xs text-gray-500">Supervisor: {{ edu.supervisor }}</div>
+    <div class="education-item">
+      <h3 class="institution">{{ edu.institution }}</h3>
+      <div class="degree-info">{{ edu.degree }} ({{ edu.startDate }} – {{ edu.endDate }})</div>
+      <div class="thesis-info">Thesis: {{ edu.thesis }}</div>
+      <div class="supervisor-info">Supervisor: {{ edu.supervisor }}</div>
     </div>
   {% endfor %}
 </section>

@@ -1,8 +1,8 @@
-<section class="mb-10">
-  <h2 class="text-2xl font-bold mb-4">Languages</h2>
-  <ul class="list-disc list-inside text-gray-300">
+<section class="language-section">
+  <h2 class="section-title">Languages</h2>
+  <ul class="language-list">
     {% for lang in site.data.ed.languages %}
-      <li>{{ lang.name }} ({{ lang.proficiency }}, {{ lang.institute }})</li>
+      <li class="language-item">{{ lang.name }} ({{ lang.proficiency }}, {{ lang.institute }})</li>
     {% endfor %}
   </ul>
 </section>

@@ -1,16 +1,16 @@
-<section class="mb-10">
-  <h2 class="text-2xl font-bold mb-4">Experience</h2>
+<section class="experience-section">
+  <h2 class="section-title">Experience</h2>
   {% for job in site.data.ed.workExperiences %}
-    <div class="mb-6">
-      <h3 class="text-lg font-semibold text-blue-400">{{ job.company }} <span class="text-gray-400 font-normal">| {{ job.position }}</span></h3>
-      <div class="text-sm text-gray-400 mb-1">{{ job.startDate }} – {{ job.endDate }}</div>
-      <p class="mb-2">{{ job.description }}</p>
-      <ul class="list-disc list-inside text-gray-300 mb-2">
+    <div class="experience-item">
+      <h3 class="company-name">{{ job.company }} <span class="position">| {{ job.position }}</span></h3>
+      <div class="date-range">{{ job.startDate }} – {{ job.endDate }}</div>
+      <p class="description">{{ job.description }}</p>
+      <ul class="contributions-list">
         {% for contrib in job.mainContributions %}
-          <li>{{ contrib }}</li>
+          <li class="contribution-item">{{ contrib }}</li>
         {% endfor %}
       </ul>
-      <div class="text-xs text-gray-500">Tech: {{ job.techStack | join: ", " }}</div>
+      <div class="tech-stack">Tech: {{ job.techStack | join: ", " }}</div>
     </div>
   {% endfor %}
 </section>

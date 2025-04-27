@@ -1,23 +1,20 @@
+title: Efstathios (Stathis) Daras
+description: Software Engineer Portfolio
+url: 'https://stathisdaras.github.io'
+baseurl: ''
 
-title: Stathis Daras
-url: 'http://stathisdaras'
-#baseurl: '/github.io'
+# Theme settings
+markdown: kramdown
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
-
-
-#Profile information
-name: Stathis Daras
+# Profile information
+name: Efstathios (Stathis) Daras
 tagline: Software Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-#sidebar links
+# Contact information
 email: efstathiosdaras@gmail.com
 phone: +30 6974 678 344
 #website: blog.webjeda.com #do not add http://
@@ -25,7 +22,6 @@ linkedin: stathisdaras
 github: stathisdaras
 twitter: '@StathisDaras'
 
-
-# Tracker
+# Google Analytics
 analytics: UA-83979019-1
 #Update all the sections by editing the files inside _includes folder.
