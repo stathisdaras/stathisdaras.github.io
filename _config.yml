@@ -5,7 +5,7 @@ baseurl: ''
 
 # Theme settings
 markdown: kramdown
-theme: jekyll-theme-orbit
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
 
