@@ -1,0 +1,172 @@
+@import "bootstrap/bootstrap";
+
+// Variables
+$primary: #0d6efd;
+$secondary: #6c757d;
+$light: #f8f9fa;
+$dark: #212529;
+
+// Base styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: $dark;
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+// Profile section
+.profile-section {
+  @extend .bg-light;
+  @extend .rounded-3;
+  @extend .p-5;
+  @extend .mb-4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  @extend .rounded-circle;
+  @extend .border;
+  @extend .border-primary;
+  @extend .border-4;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.profile-name {
+  @extend .display-4;
+  @extend .fw-bold;
+  @extend .mb-2;
+}
+
+.profile-title {
+  @extend .h3;
+  @extend .text-primary;
+  @extend .mb-4;
+}
+
+.contact-info {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .gap-3;
+  @extend .mt-4;
+}
+
+.contact-link {
+  @extend .text-decoration-none;
+  @extend .text-secondary;
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .gap-2;
+
+  &:hover {
+    color: $primary;
+  }
+
+  i {
+    @extend .text-primary;
+  }
+}
+
+// Section styles
+.section {
+  @extend .bg-white;
+  @extend .rounded-3;
+  @extend .p-4;
+  @extend .mb-4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  @extend .h2;
+  @extend .fw-bold;
+  @extend .mb-4;
+  @extend .pb-2;
+  @extend .border-bottom;
+  @extend .border-primary;
+}
+
+// Experience items
+.experience-item {
+  @extend .card;
+  @extend .mb-4;
+  @extend .p-4;
+  border-left: 4px solid $primary;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.company-name {
+  @extend .h4;
+  @extend .fw-bold;
+  @extend .mb-2;
+}
+
+.position {
+  @extend .text-primary;
+  @extend .fw-medium;
+  @extend .mb-2;
+}
+
+.date-range {
+  @extend .text-secondary;
+  @extend .small;
+  @extend .mb-3;
+}
+
+.description {
+  @extend .mb-3;
+}
+
+.contributions-list {
+  @extend .list-unstyled;
+  @extend .mb-3;
+
+  li {
+    @extend .position-relative;
+    @extend .ps-4;
+    @extend .mb-2;
+    color: $secondary;
+
+    &::before {
+      content: "▹";
+      color: $primary;
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+
+.tech-stack {
+  @extend .text-secondary;
+  @extend .small;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .profile-section {
+    @extend .p-4;
+  }
+
+  .profile-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section {
+    @extend .p-3;
+  }
+} 
