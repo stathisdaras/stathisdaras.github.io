@@ -6,7 +6,7 @@
   "profileImage": "",
   "briefProfile": "I am a product-driven Software Engineer with a strong sense of ownership. My aspiration is to deliver an excellent user experience to the end customer and, in the process, learn as much as I can.",
   "skills": {
-    "JVM": [
+    "Backend": [
       "Java",
       "Kotlin",
       "Spring Boot",
@@ -47,18 +47,18 @@
       "position": "Senior Full Stack Engineer",
       "startDate": "Nov 2024",
       "endDate": "Present",
-      "description": "Leading full stack development of Azure cloud-based applications using Angular and Java 11 Spring Boot.",
+      "description": "In my current role as a Full Stack Senior Engineer in UBS eDiscovery Group, I am leading the full stack development of the GI Reporting MSA, an Azure cloud-based application using Angular and Java 11 Spring Boot.",
       "mainContributions": [
-        "Led the migration of legacy systems to Azure cloud infrastructure",
-        "Implemented CI/CD pipelines reducing deployment time by 40%",
-        "Mentored junior developers and established coding standards"
+        "Query performance optimizations, resulting in significant reduction in response time for large datasets.",
+        "Optimized Integration Tests and improve CI/CD pipeline reliability."
       ],
       "techStack": [
         "Angular",
         "Java 11",
         "Spring Boot",
         "PostgreSQL",
-        "Azure"
+        "Azure DevOps",
+        "PowerBI"
       ]
     },
     {
@@ -66,7 +66,7 @@
       "position": "Senior Software Engineer", 
       "startDate": "Apr 2021",
       "endDate": "Oct 2024",
-      "description": "As a member of the Commissions & Technical Accounting team at iptiQ, I am responsible for implementing features related to the customers' payment plan, dunning reminders, bookkeeping and commissioning.",
+      "description": "As a member of the Commissions & Technical Accounting team at iptiQ, I have been responsible for implementing features related to the customers' payment plan, dunning reminders, bookkeeping and commissioning.",
       "mainContributions": [
         "Design and implementation of in-house technical accounting platform aimed at significantly reducing external costs.",
         "Design, implementation and legacy migration of the company's dunning reminders system, ensuring smooth cash flow through the timely collection of payments from customers.",
