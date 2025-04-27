@@ -9,46 +9,41 @@ layout: compress
 
 <body>
     <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
+        <div class="main-wrapper">
+            <div class="profile-section">
                 <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
-                <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
-                <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
+                <h1 class="profile-name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
+                <h3 class="profile-title">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+                
+                <div class="contact-info">
                     {% if site.email %}
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+                    <a href="mailto: {{site.email}}" class="contact-link"><i class="fa fa-envelope"></i>{{site.email}}</a>
                     {% endif %}
                     
                     {% if site.phone %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+                    <a href="tel:{{site.phone}}" class="contact-link"><i class="fa fa-phone"></i>{{site.phone}}</a>
                     {% endif %}
                     
                     {% if site.linkedin %}
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
+                    <a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank" class="contact-link"><i class="fa fa-linkedin"></i>linkedin.com/in/{{site.linkedin}}</a>
                     {% endif %}
                     
                     {% if site.github %}
-                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
+                    <a href="http://github.com/{{site.github}}" target="_blank" class="contact-link"><i class="fa fa-github"></i>github.com/{{site.github}}</a>
                     {% endif %}
                     
                     {% if site.twitter %}
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
+                    <a href="https://twitter.com/{{site.twitter}}" target="_blank" class="contact-link"><i class="fa fa-twitter"></i>{{site.twitter}}</a>
                     {% endif %}
-                </ul>
-            </div><!--//contact-container-->
+                </div>
+            </div>
             
-            {% include education.html %}
-            {% include language.html %}
-            {% include interests.html %}
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
             {% include career-profile.html %}
             {% include experience.html %}
+            {% include education.html %}
             {% include skills.html %}
+            {% include language.html %}
+            {% include interests.html %}
             {% include certifications.html %}
         </div><!--//main-wrapper-->
     </div><!--//wrapper-->
